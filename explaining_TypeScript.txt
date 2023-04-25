@@ -30,7 +30,7 @@ bear.honey;
         readonly is a TypeScript keyword used to declare properties or variables as read-only, meaning they can only be assigned a value once, either at initialization or within a constructor. Once a property or variable is marked as readonly, its value cannot be changed.
 --------------------------------------UNION TYPE--------------------------------------------------
 ==>It is highly recommended to use Union instead of any when you are going to recieve values that you don't know thier data type
-
+   Syntax(|)
 
 
 

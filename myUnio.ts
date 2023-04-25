@@ -23,9 +23,11 @@ function getDbId(id:number | string){
     }
 }
 //Alertering an array of number and string
-const data:(string | number )[]= [2,"ass"]
+const data:(string | number )[]= [2,"assfield"]
 
-
+//another situation
+let pi:3.14 = 3.14;//Pi will only be to have the value of the number you see
+let seat:"aisle"|"middle"|"Back sites";//this also apply thr same conept
 
 
 

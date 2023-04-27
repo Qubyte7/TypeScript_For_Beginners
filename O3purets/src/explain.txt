@@ -1,0 +1,20 @@
+-------------------------Getter and setters-------------------------------------------
+==>GETTRS: are used to access the properties of a class usually private properties , 
+          so that you can make an addition information or logic
+
+==>SETTERS:-->the setters don't have the return value
+
+In general,setters and getters are used to access the properties of a classwith the intection of adding addition logic
+
+
+
+
+
+
+
+
+
+
+
+
+

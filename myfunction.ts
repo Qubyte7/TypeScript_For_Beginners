@@ -8,10 +8,12 @@ const getHello = (s:string):string=>{
     return "string return"
 }
 const heros = ["thor","spiderman","iron man","batman"];
-
-heros.map( (hero):string =>{
-    return `hero is ${hero}` 
+    //Mapping
+heros.map((hero):string =>{
+    return `hero is ${hero}`
+    console.log(hero) 
 })
+
 function consoleError(errmsg:string):void{
     console.log(errmsg)
 }
@@ -77,8 +79,15 @@ type array={
 const array2: array[]=[{name:"adioasd",isActive:true}]
 array2.push({name:"Ganza",isActive:true})
 
-
-
-
+const array3:{name:string,age:Number}[] = [
+    {name:"mugisha",age:16},
+    {name:"Ganza", age:12}
+]
+function mapping () {
+array3.map((person:{})=>{
+    return person;
+})
+}
+mapping()
 
 export {}

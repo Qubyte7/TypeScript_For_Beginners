@@ -11,12 +11,4 @@ const newUser : user = [122,"innocent"]
  
 
 
-
-
-
-
-
-
-
 export {}
-

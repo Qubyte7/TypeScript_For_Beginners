@@ -6,6 +6,17 @@
 
 In general,setters and getters are used to access the properties of a classwith the intection of adding addition logic
 
+ ------------------------------ABSTRACT--------------------------------------
+ 
+The abstract keyword in TypeScript is used to define abstract classes and abstract methods. An abstract class cannot be instantiated, and it can only be used as a base class for other classes. An abstract method is a method that has no implementation and must be implemented by derived classes.
+
+In your example, the abstract keyword is used before the getSepia() method declaration. This means that any class that extends the class containing this method must provide an implementation for it. Otherwise, the extending class will also need to be marked as abstract.
+
+So, if a class extends the class containing getSepia(), it must provide an implementation for it using the override keyword. This ensures that any class derived from the base class must implement the getSepia() method
+
+
+
+
 
 
 

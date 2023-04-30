@@ -3,7 +3,7 @@ import { name } from "typescipt";
     //CLASSES 1st
 class User {
     behavior?:{}
-    protected password?:string//gets private in this class and to any class that extended this class
+    protected password?:string//gets pri vate in this class and to any class that extended this class
     email:string
     name:string 
    private readonly  city ="huye"//Tomean that city is not accessible outside of the class
@@ -42,7 +42,7 @@ const innocent = new User("innocent@gmail.com","shami Innocent")
 
 class SubUser extends User{
     isFamily:boolean =  true
-    changePassword (){
+    changePassword (){//function of changing the password in the parent user 
      this.password = "innocent"
    }
 }

@@ -14,10 +14,15 @@ In your example, the abstract keyword is used before the getSepia() method decla
 
 So, if a class extends the class containing getSepia(), it must provide an implementation for it using the override keyword. This ensures that any class derived from the base class must implement the getSepia() method
 
-
-
-
-
+------------------------------GENERICS----------------------------------------------------
+Example : function identity2<Type>(val:Type):Type{
+    return val
+}"
+ .here It is known that this function is able of recieving any type of argument but the return  type  will the same as one of the argument 
+ Unlike  for any which recieve any type and return any type 
+-------------------------------------------DATATYPE NEVER ---------------------------------------------------
+never is a type in TypeScript that represents a value that will never occur. A function with a return type of never indicates that the function will never return normally. This can happen,
+ for example, when a function throws an error or enters an infinite loop.
 
 
 

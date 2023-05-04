@@ -29,3 +29,15 @@ function isAdminAccount(account:User | Admin){
 
 
 }
+function logValue(x:Date | string){
+    if(x instanceof Date){//checks if this x was an instance of date
+        console.log(x.toUTCString());
+
+    }else{
+        console.log(x.toUpperCase());
+    }
+}
+
+
+
+

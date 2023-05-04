@@ -24,9 +24,25 @@ Example : function identity2<Type>(val:Type):Type{
 never is a type in TypeScript that represents a value that will never occur. A function with a return type of never indicates that the function will never return normally. This can happen,
  for example, when a function throws an error or enters an infinite loop.
 
+-----------------------INSTANCE OF && TYPE OF------------------------------------------------------------------------
 
+In TypeScript, typeof and instanceof are used to perform type checks at runtime.
 
+The typeof operator is used to get the type of a variable or expression at runtime. For example, typeof variable will return the type of variable as a string. This is useful for checking if a variable is of a certain type before performing an operation on it.
 
+The instanceof operator is used to check if an object is an instance of a particular class or constructor function. It returns a boolean value of true if the object is an instance of the class, and false otherwise. This is useful when dealing with object-oriented programming concepts such as inheritance and polymorphism.
+
+         ++++++++++++++>>>>>>>>>>>>>>>>INBUILT CLASSES<<<<<<<<<<<<<<<<<<<<<<<<<<<+++++++++++++++++++++
+  ex:Array
+Object
+Map
+Set
+Promise
+RegExp
+Math
+JSON
+String
+Number       
 
 
 

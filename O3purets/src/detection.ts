@@ -30,14 +30,29 @@ function isAdminAccount(account:User | Admin){
 
 }
 function logValue(x:Date | string){
-    if(x instanceof Date){//checks if this x was an instance of date
+    if(x instanceof Date){//checks if this x was an instance of date as an inbuilt class 
         console.log(x.toUTCString());
 
     }else{
         console.log(x.toUpperCase());
     }
 }
+type Fish = {swim: ()=>void};
+type Bird  = {fly :()=>void};
 
+function isFish(pet:Fish |Bird ):pet is Fish{//this will return fish as a pet
+    return (pet as Fish).swim !== undefined;
+}
+
+function getFood(pet:Fish | Bird){
+    if(isFish(pet)){
+        pet
+        return"fish food";
+    }else{
+        pet 
+        return "bird food";
+    }
+}
 
 
 
